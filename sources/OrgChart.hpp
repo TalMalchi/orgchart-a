@@ -29,6 +29,8 @@ namespace ariel
         Iterator reverse_order();
         Iterator begin_preorder();
         Iterator end_preorder();
+         Iterator begin();
+        Iterator end();
 
     private:
         struct Node
